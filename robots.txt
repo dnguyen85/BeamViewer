@@ -1,0 +1,4 @@
+Sitemap: http://www.beamviewer.io/sitemapindex.xml
+
+User-Agent: *
+Host: www.beamviewer.io
