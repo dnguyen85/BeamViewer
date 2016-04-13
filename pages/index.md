@@ -17,7 +17,7 @@ for visualization and interactions with wireless network activities.
 <p>
 </p>
 
-![](images/beamviewer_arch.png){width=90%}
+![](images/beamviewer_arch.png){width=100%}
 
 ## Overview
 
@@ -55,11 +55,11 @@ reconfigurable antenna-based cognitive radio network.
 <div class="row">
 <div class="col-md-6">
 
-![](images/ios_app_store.svg){height=100px}
+[![](images/ios_app_store.svg){height=100px}](https://itunes.com/apps/beamviewer)
 </div>
 <div class="col-md-6">
 
-![](images/Get_it_on_Google_play.svg){height=100px}
+[![](images/Get_it_on_Google_play.svg){height=100px}](https://play.google.com/store/apps/details?id=com.henderson.Beamviewer)
 </div>
 </div>
 
