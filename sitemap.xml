@@ -7,11 +7,15 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.beamviewer.io/</loc>
-  <lastmod>2016-04-12T22:24:00Z</lastmod>
+  <lastmod>2016-04-12T23:00:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.beamviewer.io/archive.html</loc>
-  <lastmod>2016-04-12T22:24:00Z</lastmod>
+  <lastmod>2016-04-13T07:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.beamviewer.io/blog/</loc>
+  <lastmod>2016-04-12T22:35:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.beamviewer.io/categories/</loc>
