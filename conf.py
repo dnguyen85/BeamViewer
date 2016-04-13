@@ -168,14 +168,15 @@ THEME_COLOR = '#5670d4'
 #
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    # ("posts/*.rst", "posts", "post.tmpl"),
+    # ("posts/*.txt", "posts", "post.tmpl"),
+    # ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("stories/*.rst", "stories", "story.tmpl"),
-    ("stories/*.txt", "stories", "story.tmpl"),
-    ("stories/*.html", "stories", "story.tmpl"),
+    ("pages/*.md", "", "story.tmpl"),
+    # ("stories/*.rst", "stories", "story.tmpl"),
+    # ("stories/*.txt", "stories", "story.tmpl"),
+    # ("stories/*.html", "stories", "story.tmpl"),
 )
 
 
@@ -243,8 +244,8 @@ TIMEZONE = "America/New_York"
 # 'markdown' is MarkDown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
+    # "rest": ('.rst', '.txt'),
+    # "markdown": ('.md', '.mdown', '.markdown'),
     "textile": ('.textile',),
     "txt2tags": ('.t2t',),
     "bbcode": ('.bb',),
@@ -258,7 +259,7 @@ COMPILERS = {
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
-    # "pandoc": ('.rst', '.md', '.txt'),
+    "pandoc": ('.rst', '.md', '.txt'),
 }
 
 # Create by default posts in one file format?
@@ -275,7 +276,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-# LOGO_URL = ''
+LOGO_URL = 'images/beamviewer_logo.resized.jpg'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
@@ -461,7 +462,7 @@ HIDDEN_AUTHORS = ['Guest']
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-# INDEX_PATH = ""
+INDEX_PATH = "blog"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
@@ -653,7 +654,7 @@ GITHUB_COMMIT_SOURCE = True
 # The format is a dictionary of {source: relative destination}.
 
 IMAGE_FOLDERS = {'images': 'images'}
-# IMAGE_THUMBNAIL_SIZE = 400
+IMAGE_THUMBNAIL_SIZE = 400
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
@@ -795,7 +796,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a>         {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
